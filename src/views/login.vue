@@ -52,7 +52,7 @@ export default {
         if (!valid) return false
         const res = await LoginApi(this.loginForm)
         console.log(res)
-        this.$router.push("/home")
+        // this.$router.push("/home")
       })
     }
   }
